@@ -1,0 +1,71 @@
+body {
+  margin: 20px;
+  display: grid;
+  place-items: center center;
+}
+.grid_box {
+  display: grid;
+  grid-template-columns: repeat(3, 275px);
+  grid-template-rows: 150px 570px 485px;
+  gap: 20px;
+}
+
+.header_box {
+  display: grid;
+  grid-template-columns: 200px 285px 300px;
+  grid-template-rows: repeat(2, 45px);
+  place-items: end center;
+  gap: 20px 40px;
+  padding-top: 10px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: black;
+  color: white;
+}
+
+.header_content {
+  font-size: 20px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.bad {
+  padding: 15px;
+  display: grid;
+  place-items: end start;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #f14011;
+  line-height: 1;
+  font-size: 230px;
+  font-weight: 600;
+}
+
+.bad_next {
+  padding: 15px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #f14011;
+}
+
+.religion {
+  padding: 15px;
+  display: grid;
+  place-items: start;
+  line-height: 0.8;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: #f14011;
+  font-size: 230px;
+  font-weight: 600;
+}
+
+.religion_content {
+  font-size: 50px;
+  line-height: 1.2;
+  color: white;
+}
