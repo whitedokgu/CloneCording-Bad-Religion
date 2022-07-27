@@ -11,4 +11,4 @@
 
 ## To I Made
 
-- [https://whitedokgu.github.io/CloneCoding_1/](https://whitedokgu.github.io/CloneCording-Bad-Religion/)
+-https://whitedokgu.github.io/CloneCording-Bad-Religion/
